@@ -7,8 +7,11 @@ authors = [
     { name = "Your Name", email = "rahulsayon88@example.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
-
+dependencies = [
+    "fastapi>=0.141.1",
+    "fastmcp>=4.0.3",
+    "uvicorn[standard]>=0.52.4",
+]
 [project.scripts]
 timetrack = "timetrack:main"
 
